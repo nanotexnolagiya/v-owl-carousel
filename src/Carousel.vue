@@ -41,6 +41,10 @@
         nav : {
             default: true
         },
+        navText: [
+          '<span aria-label="' + 'Pre' + '">&#x2039;</span>',
+          '<span aria-label="' + 'Next' + '">&#x203a;</span>'
+        ],
         autoplay : {
             default: false
         },
@@ -94,6 +98,7 @@
             loop         : this.loop,
             center       : this.center,
             nav          : this.nav,
+            navText      : this.navText,
             autoplay     : this.autoplay,
             autoplaySpeed: this.autoplaySpeed,
             rewind       : this.rewind,
